@@ -1,0 +1,44 @@
+Shiny Application Pitch Presentation
+========================================================
+author: H.G
+date: August 11th, 2019
+autosize: true
+font-family: 'Calibri'
+css: custom.css
+
+
+Introduction
+========================================================
+This is the final project for the Developing Data Products. This project is to build a shiny application using the shiny package in R. 
+
+The goal of the project is as following:
+
+- Create a Shiny application and deploy it on Rstudio's servers. 
+- Create a Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+Mass
+========================================================
+- Pound (lb)
+- Kilogram (kg)
+
+These two units are frequently used in our daily life, but the conversion is hard to remember or calculate. This app is to help people convert lb to kg conveniently. 
+<center>1 lb = 0.4536 kg </center>
+For example, the result of 10 lbs will be:
+```{r}
+paste("The conversion result of 10 lb is:",round((10/0.4536),4), "kg")
+```
+
+
+The App
+========================================================
+There are three parts:
+- Slider input: to input the lbs that you want to convert to kgs
+- Action button: click to activate the converter
+- Result: show the result of conversion
+
+Link to the app: 
+<url>https://cenx.shinyapps.io/myapp/</url>
+
+
+========================================================
+<center><h1 style="color:rgb(165, 184, 121);">Thank you!</h1></center>
